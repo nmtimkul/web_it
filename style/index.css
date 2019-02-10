@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Skia;
+  background-image: url("trooper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label {
+  font-size: 50px;
+  color:brown;
+}
+#login {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 460px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: black;
+  padding: 5px;
+  
+}
+#blue {
+  align-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 45px;
+  background-color: white;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  color: brown;
+  border-radius: 20ch;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border-radius: 20ch;
+}
+
+input[type="submit"] {
+  height: 50px;
+  background-color: white;
+  border: 2px solid white;
+  opacity: 0.8;
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 330px;
+  left: 1px;
+  border-radius: 20ch;
+}
+input[type="submit"]:hover {
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  opacity: 0.3;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 15px;
+}
+.button {
+  float: right;
+  height: 66px;
+  width: 110px;
+  line-height: 56px;
+  color: brown;
+}
+.button:hover {
+  color: white;
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  opacity: 0.3;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px;
+}
+a {
+  color: brown;
+  text-decoration: none;
+}
+h4 {
+  color: brown;
+}

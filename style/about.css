@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Skia;
+}
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 15px;
+}
+.button {
+  float: right;
+  height: 56px;
+  width: 100px;
+  line-height: 56px;
+  border: 2px solid white;
+  color: white;
+}
+.button:hover {
+  color: white;
+  cursor: pointer;
+}
+.footer {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background-color: white;
+  text-align: center;
+}
+.nb-like, .nb-dislike {
+  font-size: 14px;
+  margin-right: 5px;
+}
+#about {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+.icon:hover, .close:hover {
+  cursor: pointer;
+}
+#load-more {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: black;
+  line-height: 40px;
+  padding-left: 40px;
+}
+#load-more:hover {
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  #about .img { margin: 0; }
+  #about { padding: 0; }
+
+}
